@@ -2,3 +2,6 @@ AprilTag navigation feature
 
 Call Robot/Request function, interacts with call buttons teachers have in rooms to request robot to come to their location
 	Uses a queue structure for requests (FIFO)
+
+Uses Raspi as a server that processes the queue requests, drone pathfinding/autopilot, as well as handles OCR when sent back from drone.
+Uses ESP32 as the drone's antenna 
